@@ -1,0 +1,688 @@
+Unity Editor version:    2020.3.37f1 (8c66806a0c04)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/juniorjulca10/Desktop/FinalRepo/Final Project/Git/HalloweenUnityGame/HalloweenUnityGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52777
+Successfully changed project path to: /Users/juniorjulca10/Desktop/FinalRepo/Final Project/Git/HalloweenUnityGame/HalloweenUnityGame
+/Users/juniorjulca10/Desktop/FinalRepo/Final Project/Git/HalloweenUnityGame/HalloweenUnityGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.37f1 (8c66806a0c04)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/juniorjulca10/Desktop/FinalRepo/Final Project/Git/HalloweenUnityGame/HalloweenUnityGame/Assets
+GfxDevice: creating device client; threaded=0
+2022-10-19 21:06:42.333 Unity[65980:6481735] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+2022-10-19 21:06:42.333 Unity[65980:6481735] Metal devices available: 2
+2022-10-19 21:06:42.333 Unity[65980:6481735] 0: AMD Radeon Pro 5500M (high power)
+2022-10-19 21:06:42.333 Unity[65980:6481735] 1: Intel(R) UHD Graphics 630 (low power)
+2022-10-19 21:06:42.333 Unity[65980:6481735] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000490 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 62.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1237ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004108 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.004750 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.37f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.3 MB.
+System memory in use after: 273.2 MB.
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 3782.
+Total: 4.679188 ms (FindLiveObjects: 0.258625 ms CreateObjectMapping: 0.161662 ms MarkObjects: 3.127621 ms  DeleteObjects: 1.130242 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FurnishedCabin/Animations/Door
+  artifactKey: Guid(bb71b872e854842fe8e3e56cc829af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Animations/Door using Guid(bb71b872e854842fe8e3e56cc829af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bf2b35e0bfda0986f8058dea47903f') in 0.005379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FurnishedCabin/Animations
+  artifactKey: Guid(1bee12285e24744ad9a8a059b0912d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Animations using Guid(1bee12285e24744ad9a8a059b0912d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa04e3dfd97f014b30d4061112a5181') in 0.000942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.389775 seconds.
+  path: Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_AlbedoTransparency.png
+  artifactKey: Guid(edbd792a813003e44b097b5481cfd907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_AlbedoTransparency.png using Guid(edbd792a813003e44b097b5481cfd907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2217203864b9d1bd571740edfc6b431') in 0.760196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FurnishedCabin/Textures/Bed_Sink_MAT_AlbedoTransparency.png
+  artifactKey: Guid(51d98af666ba10f45ad4a045543447d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bed_Sink_MAT_AlbedoTransparency.png using Guid(51d98af666ba10f45ad4a045543447d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c558002111dfd14b11a14c3ac8fbb4c') in 0.016244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FurnishedCabin/Textures/Chairs_AlbedoTransparency.png
+  artifactKey: Guid(0376b7bae8de12b46a8e17e10169869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Chairs_AlbedoTransparency.png using Guid(0376b7bae8de12b46a8e17e10169869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e08eb5e62c54f7367b5d93fe88abd30') in 0.013931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_MetallicSmoothness.png
+  artifactKey: Guid(e2c7c7aaef6b6d94fad6625c3c937d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_MetallicSmoothness.png using Guid(e2c7c7aaef6b6d94fad6625c3c937d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e7e2e0ff55c3e46ce9444787f30e54') in 0.017039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingA_MAT_MetallicSmoothness.png
+  artifactKey: Guid(ba109249b9612fb4aa9246edf6e92d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingA_MAT_MetallicSmoothness.png using Guid(ba109249b9612fb4aa9246edf6e92d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77926ddeed49ade4e197afc4a2746c3b') in 0.017289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_MetallicSmoothness.png
+  artifactKey: Guid(32a21508c9991594ba7aeac228b5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_MetallicSmoothness.png using Guid(32a21508c9991594ba7aeac228b5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a5dbb5fc136df111daede14467869b') in 0.017673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AmbientOcclusion.png
+  artifactKey: Guid(28ba511aefd39454aab808bc0b64d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AmbientOcclusion.png using Guid(28ba511aefd39454aab808bc0b64d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f90fc2c2d4099b7a4147d0eb7e6cf7') in 0.013457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FurnishedCabin/Textures/BedroomFurniture_Normal.png
+  artifactKey: Guid(a8decf3cbc521cf47a6243a96b678969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BedroomFurniture_Normal.png using Guid(a8decf3cbc521cf47a6243a96b678969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892bc79e5bcd2da16dd2a73f8e13fb6f') in 0.108395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/FurnishedCabin/Textures/BedroomFurniture_MetallicSmoothness.png
+  artifactKey: Guid(7663437c12f99554b8cb0b8e1a4ce6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BedroomFurniture_MetallicSmoothness.png using Guid(7663437c12f99554b8cb0b8e1a4ce6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd147db65f793df2e8e955b6c5725c45f') in 0.036954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/FurnishedCabin/Textures/PlasticSteelHandle_Normal.png
+  artifactKey: Guid(dcc6faa416bc4d6488d18674cbd55481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/PlasticSteelHandle_Normal.png using Guid(dcc6faa416bc4d6488d18674cbd55481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993e603085a1703fcd7b2aa7793f9083') in 0.017312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/FurnishedCabin/Textures/Chairs_MetallicSmoothness.png
+  artifactKey: Guid(a09c974e24b605245825a42d0ed88fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Chairs_MetallicSmoothness.png using Guid(a09c974e24b605245825a42d0ed88fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9811f38b575e813592972c7c43f1bdc2') in 0.020607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/FurnishedCabin/Textures/Lights_towel_MAT_AlbedoTransparency.png
+  artifactKey: Guid(96f9d836d0270d64c88468f69b7a4898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Lights_towel_MAT_AlbedoTransparency.png using Guid(96f9d836d0270d64c88468f69b7a4898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5487a05c360305bccd040f3df608a69') in 0.013748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingA_MAT_Normal.png
+  artifactKey: Guid(7fb269d1ff09b7c4f8c1a7219af4dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingA_MAT_Normal.png using Guid(7fb269d1ff09b7c4f8c1a7219af4dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacffbc59d05fc883d2f5976961fa389') in 0.027572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FurnishedCabin/Textures/Chairs_Normal.png
+  artifactKey: Guid(36cbb5dd2c88577448148996c4611120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Chairs_Normal.png using Guid(36cbb5dd2c88577448148996c4611120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d9c17f7be1466365509ef62847bc12') in 0.019272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AlbedoTransparency.png
+  artifactKey: Guid(f6b64e018a17d214a9a658953858a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AlbedoTransparency.png using Guid(f6b64e018a17d214a9a658953858a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f3940c13f9de17ca2d7b2fb2c4d915') in 0.021574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FurnishedCabin/Textures/BedroomFurniture_AlbedoTransparency.png
+  artifactKey: Guid(d7b7805b5a7450f4abf1fbc3f80b8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BedroomFurniture_AlbedoTransparency.png using Guid(d7b7805b5a7450f4abf1fbc3f80b8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a721cb5a2588b3d78a3bc0a3f456d84c') in 0.015136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/FurnishedCabin/Textures/Lights_towel_MAT_Emissive.png
+  artifactKey: Guid(7d6d9ac4fc13eab4bb767d78c90f7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Lights_towel_MAT_Emissive.png using Guid(7d6d9ac4fc13eab4bb767d78c90f7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea891c4a8ece1e0697a710260c2410') in 0.014553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_Normal.png
+  artifactKey: Guid(a1dabb66b0b981a409c197c9e773f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_Normal.png using Guid(a1dabb66b0b981a409c197c9e773f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b56b3d4af8b48a182785f417fad24e8') in 0.017759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_MetallicSmoothness.png
+  artifactKey: Guid(98ea345f7a8d0814fb5c98db1bffdcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_MetallicSmoothness.png using Guid(98ea345f7a8d0814fb5c98db1bffdcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e960ae1bcb78b29c55087f57c713b59') in 0.018910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/FurnishedCabin/Textures/Lights_towel_MAT_Normal.png
+  artifactKey: Guid(285f9fc766ee8b74b9cc44fcb81577d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Lights_towel_MAT_Normal.png using Guid(285f9fc766ee8b74b9cc44fcb81577d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ce27c8f9ab41a25aae6a588dbda069') in 0.018156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/FurnishedCabin/Textures/TV_Lamp_Table_MetallicSmoothness.png
+  artifactKey: Guid(f2e8d3b7385e66242bcc47be486fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/TV_Lamp_Table_MetallicSmoothness.png using Guid(f2e8d3b7385e66242bcc47be486fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc14d553e4e6bb12308de3ac155a8fde') in 0.017518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/FurnishedCabin/Textures/PlasticSteelHandle_AlbedoTransparency.png
+  artifactKey: Guid(078bf4bc105d1eb4cad1bcaba631f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/PlasticSteelHandle_AlbedoTransparency.png using Guid(078bf4bc105d1eb4cad1bcaba631f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de9dd5a99f479eeacafa3c0eb7b40d3') in 0.013740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FurnishedCabin/Textures/Lights_towel_MAT_MetallicSmoothness.png
+  artifactKey: Guid(86ba29b31951ecf4dbe537d15247b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Lights_towel_MAT_MetallicSmoothness.png using Guid(86ba29b31951ecf4dbe537d15247b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21d13ce0cbcfde1ed29dc06dcdc45eb') in 0.018421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AmbientOcclusion.png
+  artifactKey: Guid(e7010990b519d84448876b961b3cec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AmbientOcclusion.png using Guid(e7010990b519d84448876b961b3cec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994572bef49816feb1b1d4c6657b183b') in 0.013415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FurnishedCabin/Textures/TV_Lamp_Table_Normal.png
+  artifactKey: Guid(646992275d7d8654ba4a90b9f3c49f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/TV_Lamp_Table_Normal.png using Guid(646992275d7d8654ba4a90b9f3c49f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114cf4844bce5566860c6fa14b002024') in 0.020534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_AmbientOcclusion.png
+  artifactKey: Guid(15b433f97379cec47842d404579a611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_AmbientOcclusion.png using Guid(15b433f97379cec47842d404579a611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4ad87efff312dbe94d5f1d1b1f5632') in 0.013095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_AlbedoTransparency.png
+  artifactKey: Guid(535de9c30bb93ce4f952600604938c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_AlbedoTransparency.png using Guid(535de9c30bb93ce4f952600604938c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f119c28ce60a543c275914f872a0a1cd') in 0.013393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_Normal.png
+  artifactKey: Guid(45a2629f55ba89444a2efe66a8f98d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_Normal.png using Guid(45a2629f55ba89444a2efe66a8f98d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8725314d29892015757ef6a145b18b') in 0.017599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/FurnishedCabin/Textures/Bed_Sink_MAT_Normal.png
+  artifactKey: Guid(5a040dfbb55f0f849933e5de5c5ec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bed_Sink_MAT_Normal.png using Guid(5a040dfbb55f0f849933e5de5c5ec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf62eced65983b9ac38e12956d533439') in 0.017684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingA_MAT_AlbedoTransparency.png
+  artifactKey: Guid(ea82f8da2d91eeb4cb45de806ffd7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingA_MAT_AlbedoTransparency.png using Guid(ea82f8da2d91eeb4cb45de806ffd7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506c665f2af7f7cff98188ab1f3268a') in 0.013318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingB_MAT_AlbedoTransparency.png
+  artifactKey: Guid(f564060b9da7fe149b829158e04f612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingB_MAT_AlbedoTransparency.png using Guid(f564060b9da7fe149b829158e04f612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b512d9d9741ac522898a68e56a68867') in 0.017787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_Normal.png
+  artifactKey: Guid(a9d1cff538c683444860a0ab10174b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_Normal.png using Guid(a9d1cff538c683444860a0ab10174b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9afb867081cff4ff40389e71254a422') in 0.019388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_Normal.png
+  artifactKey: Guid(138cde3777a44d5448f93b2e10132aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_Normal.png using Guid(138cde3777a44d5448f93b2e10132aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d526a74c7b5375c926fd5ae79ea741') in 0.019014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_Emission.png
+  artifactKey: Guid(5416dd4097dd0b045a796e7757b449db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_Emission.png using Guid(5416dd4097dd0b045a796e7757b449db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fd03b5517345070c36899a3c2c3d31') in 0.014418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AlbedoTransparency.png
+  artifactKey: Guid(9e8bdb50df85d05429c3cdee0cb0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AlbedoTransparency.png using Guid(9e8bdb50df85d05429c3cdee0cb0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0d74d5589e0f5d5313371c7a24ccf') in 0.020881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/FurnishedCabin/Textures/Bed_Sink_MAT_MetallicSmoothness.png
+  artifactKey: Guid(60ae71b6f6cc2a94faa8b42638567ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bed_Sink_MAT_MetallicSmoothness.png using Guid(60ae71b6f6cc2a94faa8b42638567ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70467365c79df88540fd7ce9bd85b17f') in 0.018635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/FurnishedCabin/Textures/PlasticSteelHandle_MetallicSmoothness.png
+  artifactKey: Guid(914bcae85d2e668479e180dae7a340cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/PlasticSteelHandle_MetallicSmoothness.png using Guid(914bcae85d2e668479e180dae7a340cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1360fbb0cdd65feae0b4337e3e0baa05') in 0.019784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingB_MAT_MetallicSmoothness.png
+  artifactKey: Guid(2881032de821c6e4ca0964bcffe8b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingB_MAT_MetallicSmoothness.png using Guid(2881032de821c6e4ca0964bcffe8b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538791a19577bc7e516d9aac07d27a5a') in 0.019467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FurnishedCabin/Textures/TV_Lamp_Table_AlbedoTransparency.png
+  artifactKey: Guid(88039094832a0654dbb36040c393bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/TV_Lamp_Table_AlbedoTransparency.png using Guid(88039094832a0654dbb36040c393bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3fdcd92e4195c4bbc2b717461a770e') in 0.014158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FurnishedCabin/Textures/BuildingB_MAT_Normal.png
+  artifactKey: Guid(d7ba41bd4187f3e4bac4f10c871cce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/BuildingB_MAT_Normal.png using Guid(d7ba41bd4187f3e4bac4f10c871cce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dfd77d850c553005b7e6b4b67238d4') in 0.018182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_MetallicSmoothness.png
+  artifactKey: Guid(f16bc5c4ac032cf48ab877cf8b1db7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Bathroom_Oven_MAT_MetallicSmoothness.png using Guid(f16bc5c4ac032cf48ab877cf8b1db7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47aa307d35e65fca2431777732be16') in 0.021855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.813034 seconds.
+  path: Assets/Flashlight/Flashlight_Gold
+  artifactKey: Guid(ee7c64208f84606499a8d6039f1fa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold using Guid(ee7c64208f84606499a8d6039f1fa598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c052868cbda73be1235c04d720378090') in 0.001082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087157 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Flashlight.prefab
+  artifactKey: Guid(d86ca2f4159e6a942abd8dfc52b38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Flashlight.prefab using Guid(d86ca2f4159e6a942abd8dfc52b38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7245e4b3371f9aafb29156823d9f427') in 1.171598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/FlashlightColor.prefab
+  artifactKey: Guid(ae07f5a7e50d802419d96b04791e8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/FlashlightColor.prefab using Guid(ae07f5a7e50d802419d96b04791e8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea02ccb23a8026fec8909ee0d16ffe0') in 0.049540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.589033 seconds.
+  path: Assets/Flashlight/Misc/Flashlight.FBX
+  artifactKey: Guid(9a3b57f0a1248be419dd9c4d54748512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Misc/Flashlight.FBX using Guid(9a3b57f0a1248be419dd9c4d54748512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499af70f76fe2308c248d2e869ff9b79') in 0.334002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.326048 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie.png
+  artifactKey: Guid(29135c4c1148bc44883907ae1a731420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie.png using Guid(29135c4c1148bc44883907ae1a731420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a342e56931fa47d10653ab74948cbd3') in 0.012717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie3.png
+  artifactKey: Guid(7f4b9d678ae21f94cae37c27309b3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie3.png using Guid(7f4b9d678ae21f94cae37c27309b3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f48ed61417ccde4c74055191b6d5e') in 0.013971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_Opac.png
+  artifactKey: Guid(6b1b00d8b882108488ba17c390b2ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_Opac.png using Guid(6b1b00d8b882108488ba17c390b2ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf2922f502d058f3c3758e30f59e639') in 0.042784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_DFSA.png
+  artifactKey: Guid(122e558843c712249a4ba618a9bbc907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_DFSA.png using Guid(122e558843c712249a4ba618a9bbc907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df1cbecd21b5f8e3f6b12d97cf67d40') in 0.040049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Flashlight/Textures/Flashlight_Cookie2.png
+  artifactKey: Guid(b66976fe27dd03b49b02412f777eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/Flashlight_Cookie2.png using Guid(b66976fe27dd03b49b02412f777eb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b6fafe3e7afea7eadb8f973ccceb1') in 0.010611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Flashlight/Textures/FlashLight_NM.png
+  artifactKey: Guid(89cebac462018be4da6232dd388e56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Textures/FlashLight_NM.png using Guid(89cebac462018be4da6232dd388e56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07f9f983d85e620333dd40ebe177665') in 0.039734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.717512 seconds.
+  path: Assets/Flashlight/Materials/FlashlightBaseMaterial.mat
+  artifactKey: Guid(930adfdfdd9fafd469ffb427a452359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightBaseMaterial.mat using Guid(930adfdfdd9fafd469ffb427a452359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f8511cf5c17f1ae0b5d0e24f0a135e') in 0.202829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Flashlight/Materials/FlashlightBulbMaterial.mat
+  artifactKey: Guid(bb59d9535c521eb48994e16487f7b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightBulbMaterial.mat using Guid(bb59d9535c521eb48994e16487f7b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce4c9eadd23df6b8d4b36a7903cf886') in 0.022516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Flashlight/Materials/FlashlightReflectorMaterial.mat
+  artifactKey: Guid(0eb0f996ba805c34c9e5dc4df46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightReflectorMaterial.mat using Guid(0eb0f996ba805c34c9e5dc4df46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6efbf8cfd554b8a3fc1c7f521b281d') in 0.014215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Flashlight/Materials/GreyMaterial.mat
+  artifactKey: Guid(0dadad7847eae04468663f7258d176b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/GreyMaterial.mat using Guid(0dadad7847eae04468663f7258d176b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b498babf2b15776a79ae60c607958481') in 0.010431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Flashlight/Materials/Sky.mat
+  artifactKey: Guid(408ca907d469b494bbeeb603ab9e8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/Sky.mat using Guid(408ca907d469b494bbeeb603ab9e8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c2313bed1509e0cf94476e44c19810') in 0.011516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Flashlight/Materials/FlashlightLensMaterial.mat
+  artifactKey: Guid(140db2315bb006848a12d719229080a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Materials/FlashlightLensMaterial.mat using Guid(140db2315bb006848a12d719229080a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37392edd4d11556215eaae5e71a5ff4f') in 0.020670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.122912 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures
+  artifactKey: Guid(8a80b6f758b2821499d31eb59ab5324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures using Guid(8a80b6f758b2821499d31eb59ab5324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2a07fd4e5de24c32c99cec25b141d7') in 0.001117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052702 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac.tga
+  artifactKey: Guid(cf64c9ca3b5d59948b24b2bbfc7de172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac.tga using Guid(cf64c9ca3b5d59948b24b2bbfc7de172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c62402635a25ab5050f136e3e10307') in 0.983832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossA.tga
+  artifactKey: Guid(e24274bffd57fe64b9d132bb24d5e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossA.tga using Guid(e24274bffd57fe64b9d132bb24d5e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23ae8c801efd61b05e85268c6a2f616') in 0.026884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossAGold.tga
+  artifactKey: Guid(35016636b78f2c44ebb0b01130e4e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossAGold.tga using Guid(35016636b78f2c44ebb0b01130e4e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd42d7b7c4f2aca8e283fb3d2cfe7254') in 0.017543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_NM.png
+  artifactKey: Guid(b2de17c8cce784e4884c408f008d8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_NM.png using Guid(b2de17c8cce784e4884c408f008d8311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3503516d6bbf6bfeaeb035b46fa07b') in 0.017587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac_Color.tga
+  artifactKey: Guid(e8a291073274e564c812f583317376bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac_Color.tga using Guid(e8a291073274e564c812f583317376bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a2dd672f9850cfa6b19de12524982f') in 0.012685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.335488 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Materials
+  artifactKey: Guid(5a2f5ccbbc4b37642a5a0125e8aa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Materials using Guid(5a2f5ccbbc4b37642a5a0125e8aa8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad01256e015c427d24071deab3891b1') in 0.001100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035774 seconds.
+  path: Assets/Flashlight/Flashlight_Gold/Materials/FlashlightBaseMaterialColor.mat
+  artifactKey: Guid(e413ebf855bf78c45b56f8cd788f0dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flashlight/Flashlight_Gold/Materials/FlashlightBaseMaterialColor.mat using Guid(e413ebf855bf78c45b56f8cd788f0dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ea71ec2198a33bdec4cf0019593768') in 0.029473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.797834 seconds.
+  path: Assets/FurnishedCabin/Animations/BathroomSink
+  artifactKey: Guid(a228f1e334fac4b509b3bed6e72d2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Animations/BathroomSink using Guid(a228f1e334fac4b509b3bed6e72d2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c26071eb96922054d30777875435518') in 0.000925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.101526 seconds.
+  path: Assets/FurnishedCabin/Animations/BathroomSink/BathroomSink_Close.anim
+  artifactKey: Guid(029fd835e40b34202966bef5c1eea9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Animations/BathroomSink/BathroomSink_Close.anim using Guid(029fd835e40b34202966bef5c1eea9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5b67c56191186788b4d00cd9937f99') in 0.167098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.601557 seconds.
+  path: Assets/FurnishedCabin/Prefabs
+  artifactKey: Guid(d74d475fc0f824076a57d6ba4337ea6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs using Guid(d74d475fc0f824076a57d6ba4337ea6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a905a576735aa25b03c1e260c1e35bed') in 0.001104 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1231ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 300.8 MB.
+System memory in use after: 299.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 4.347647 ms (FindLiveObjects: 0.267299 ms CreateObjectMapping: 0.147464 ms MarkObjects: 3.006405 ms  DeleteObjects: 0.925886 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 397.363775 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo.unity
+  artifactKey: Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Scenes/Demo.unity using Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100afe1d0076c825248bc499d6bfc0fb') in 0.006850 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1539ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.6 MB.
+System memory in use after: 300.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 5.895065 ms (FindLiveObjects: 0.223007 ms CreateObjectMapping: 0.134072 ms MarkObjects: 4.121297 ms  DeleteObjects: 1.415587 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
